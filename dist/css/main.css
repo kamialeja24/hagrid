@@ -6179,7 +6179,7 @@ div {
 .h4, h5,
 .h5, h6,
 .h6 {
-  padding: .5em 0;
+  padding: 0.5em 0;
   margin: 0;
   line-height: 1.2em;
   font-weight: 400;
@@ -6309,7 +6309,7 @@ h6,
 }
 .btn.btn-default {
   background-color: #f8f8f8;
-  color: #f8f8f8;
+  color: #333;
 }
 .btn.btn-default .badge {
   background: #f8f8f8;
@@ -9729,14 +9729,14 @@ ul.list-square.list-error li:before {
 .label {
   display: inline-block;
   *display: inline;
-  padding: .2em .5em;
+  padding: 0.2em 0.5em;
   line-height: 1em;
   color: #f8f8f8;
   background-color: #f8f8f8;
   text-decoration: none;
   font-size: 1em;
   font-weight: 400;
-  margin: .25em;
+  margin: 0.25em;
   border-radius: 4px;
   text-transform: normal;
   position: relative;
@@ -9753,11 +9753,11 @@ ul.list-square.list-error li:before {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-transition: background .2s;
-  -moz-transition: background .2s;
-  -ms-transition: background .2s;
-  -o-transition: background .2s;
-  transition: background .2s;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -ms-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -9950,11 +9950,11 @@ table.table.table-lg th {
 .pagination > *:not(.not) {
   display: inline-block;
   *display: inline;
-  -webkit-transition: background-color .3s;
-  -moz-transition: background-color .3s;
-  -ms-transition: background-color .3s;
-  -o-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   cursor: pointer;
   vertical-align: middle;
   text-decoration: none;
@@ -10135,7 +10135,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #f8f8f8;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #f8f8f8;
 }
 .pagination.pagination-outline.pagination-default > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-default > *:not(.not).current {
@@ -10150,7 +10150,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #f8f8f8;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #f8f8f8;
   color: #333;
 }
@@ -10167,7 +10167,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #3C3C3C;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #3C3C3C;
 }
 .pagination.pagination-outline.pagination-inverse > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-inverse > *:not(.not).current {
@@ -10182,7 +10182,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #2D6CC9;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #2D6CC9;
 }
 .pagination.pagination-outline.pagination-primary > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-primary > *:not(.not).current {
@@ -10197,7 +10197,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #31C290;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #31C290;
 }
 .pagination.pagination-outline.pagination-secondary > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-secondary > *:not(.not).current {
@@ -10212,7 +10212,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #00BCD4;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #00BCD4;
 }
 .pagination.pagination-outline.pagination-info > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-info > *:not(.not).current {
@@ -10227,7 +10227,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #E68523;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #E68523;
 }
 .pagination.pagination-outline.pagination-warning > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-warning > *:not(.not).current {
@@ -10242,7 +10242,7 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #C53030;
   border-radius: 100px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   color: #C53030;
 }
 .pagination.pagination-outline.pagination-error > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-error > *:not(.not).current {
@@ -10454,11 +10454,11 @@ table.table.table-lg th {
   border: 0;
 }
 .progressbar .progressbar-counting {
-  -webkit-transition: .3s width;
-  -moz-transition: .3s width;
-  -ms-transition: .3s width;
-  -o-transition: .3s width;
-  transition: .3s width;
+  -webkit-transition: 0.3s width;
+  -moz-transition: 0.3s width;
+  -ms-transition: 0.3s width;
+  -o-transition: 0.3s width;
+  transition: 0.3s width;
   position: absolute;
   left: 0;
   top: 0;
@@ -10469,7 +10469,7 @@ table.table.table-lg th {
 }
 .progressbar .progressbar-counting:before {
   content: attr(data-counting);
-  font-size: .9em;
+  font-size: 0.9em;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   position: relative;
